@@ -4,8 +4,13 @@ Solução do desafio [Product preview card component](https://www.frontendmentor
 
 ### Screenshots do projeto
 
+- Desktop
+
 ![Desktop preview](./src/screenshots/desktop-preview.jpg)
-![Mobile preview](./src/screenshots/mobile-preview.jpeg.jpg)
+
+- Mobile
+
+![Mobile preview](./src/screenshots/mobile-preview.jpg)
 
 ### Links
 
