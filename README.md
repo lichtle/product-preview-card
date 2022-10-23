@@ -10,7 +10,7 @@ Solução do desafio [Product preview card component](https://www.frontendmentor
 
 - Mobile
 
-![Mobile preview](./src/screenshots/mobile-preview.jpeg)
+<img src="src/screenshots/mobile-preview.jpeg" alt="Mobile preview" width="300"/>
 
 ### Links
 
