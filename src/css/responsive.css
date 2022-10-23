@@ -1,0 +1,18 @@
+@media (max-width: 1024px), (max-width: 1300px) {
+  main.product-card {
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+  }
+
+  div.product-img {
+    background: url("../images/product.jpg") no-repeat center contain;
+    border-radius: 1rem 1rem 0 0;
+    width: 100%;
+  }
+
+  div.product-details {
+    width: 100%;
+  }
+}
