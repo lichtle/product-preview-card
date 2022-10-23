@@ -1,6 +1,6 @@
-# Desafio Product preview card component solution - Frontend Mentor
+# Product preview card component - Frontend Mentor
 
-Solução do desafio [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa), do Frontend Mentor.
+Solução do desafio [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa), do Frontend Mentor.
 
 ### Screenshots do projeto
 
@@ -9,16 +9,16 @@ Solução do desafio [Product preview card component challenge on Frontend Mento
 
 ### Links
 
-- [Link do projeto](https://your-live-site-url.com)
-- [Solução no Frontend Mentor](https://your-solution-url.com)
+- [Link do projeto](https://lichtle.github.io/projeto-product-preview-card/)
+- [Solução no Frontend Mentor](https://www.frontendmentor.io/solutions/responsive-product-preview-card--3XonCTh77)
 
 ## Desafios
-O maior desafio foi o posicionamento dos elementos utilizando os conceitos de display flex.
+Os maiores desafios foram o posicionamento dos elementos utilizando os conceitos de display flex e a aplicação da responsividade.
 
 ## Coisas que aprendi
 - Trabalhar com o display flex;
 - Usar variáveis no CSS;
-- Fazer um site responsivo para dispositivos de telas menores.
+- Fazer um site responsivo.
 
 ## Futuro do projeto
 - Refatorar o código;
