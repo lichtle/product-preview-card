@@ -1,18 +1,14 @@
-@media (max-width: 1024px), (max-width: 1300px) {
-  main.product-card {
-    flex-direction: column;
-    justify-content: center;
-    width: 90%;
-    height: 90%;
+@media (max-width: 768px) {
+  body {
+    height: 100%;
+    margin: 3rem;
   }
 
-  div.product-img {
-    background: url("../images/product.jpg") no-repeat center contain;
+  div.product-card {
+    grid-template-columns: 1fr;
+  }
+
+  img.product-img {
     border-radius: 1rem 1rem 0 0;
-    width: 100%;
-  }
-
-  div.product-details {
-    width: 100%;
   }
 }

@@ -22,27 +22,38 @@
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
-    <main class="product-card">
-      <div class="product-img"></div>
-      <div class="product-details">
-        <h1 class="product-type">Canecas</h1>
-        <h2 class="product-title">Caneca Happy Camper</h2>
-        <p class="product-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dolores
-          repellat, maiores nam optio eos. Sequi amet ea voluptas eveniet
-          sapiente similique veniam, recusandae nihil animi at nam cupiditate
-          perspiciatis.
-        </p>
-        <div class="prices">
-          <div class="sale-price">R&#x00024; 25,00</div>
-          <div class="former-price">R&#x00024; 32,00</div>
+    <main>
+      <div class="product-card">
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="src/images/product-desktop.jpg" />
+          <img
+            class="product-img"
+            src="src/images/product-mobile.jpg"
+            alt="Imagem do produto - Tênis Converse All Star Branco de cano médio"
+        /></picture>
+        <div class="product-details">
+          <span class="product-type">Calçados</span>
+          <h1 class="product-title">
+            Tênis Converse All Star Branco de cano médio
+          </h1>
+          <p class="product-description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iusto
+            perferendis tenetur sed exercitationem, ad, quas et in animi magni
+            harum alias hic maiores! Et, rerum? Delectus magni qui minima?
+          </p>
+          <div class="prices">
+            <span class="sale-price">R&#x00024; 25,00</span>
+            <del class="former-price">R&#x00024; 32,00</del>
+          </div>
+          <a href="#" class="cart-btn">
+            <img src="src/images/icon-cart.svg" alt="Ícone de carrinho" />Add to
+            Cart
+          </a>
         </div>
-        <a href="" class="cart-btn">
-          <img src="src/images/icon-cart.svg" alt="Ícone de carrinho" />Add to
-          Cart
-        </a>
       </div>
     </main>
-    <!-- Foto: https://www.pexels.com/pt-br/foto/pessoa-segurando-uma-caneca-de-ceramica-branca-1239403/ -->
+    <!-- Foto de Apostolos Vamvouras : https://www.pexels.com/pt-br/foto/mulher-usando-tenis-cano-alto-branco-2946956/ -->
   </body>
 </html>
